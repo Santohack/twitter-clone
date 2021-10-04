@@ -1,0 +1,14 @@
+extends layouts/main-layout.pug
+
+block content
+
+    .loginContainer 
+        h1 Register 
+        form( method="post")
+        input(type="text" name="Username" placeholder=" Enter Username" require="") 
+        input(type="text" name="email" placeholder=" Enter Email" required="") 
+        input(type="text" name="name" placeholder=" Enter Name" required="") 
+        input(type="text" name="password" placeholder=" Enter Password" required="")
+        input(type="submit" value="Login")
+        a(href="/login") Click here for Create Accout.... 
+
